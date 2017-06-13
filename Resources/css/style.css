@@ -1,5 +1,6 @@
 /* LANDING */
 
+
 .navIcon{
     background-image: url(img/IOlogo.png);
     background-size: contain;
@@ -15,13 +16,13 @@
     background-color:rgba(255,255,255,.9);
     color:white;
     z-index:1000;
-    transition:all 0.3s ease 0s;
+/*    transition:all 0.3s ease 0s;*/
     text-align: center;
 }
 
 .showNav{
     display:inline-block;
-    transition:all 0.3s ease 0s;
+/*    transition:all 0.3s ease 0s;*/
 }
 
 .navItem{
@@ -95,6 +96,15 @@ header{
     background-color: transparent;
 }
 
+.phoneBTN{
+    border:2px solid #e13226;
+    background-color: #e13226;
+    text-align: left;
+}
+.phoneBTN:hover{
+    background-color:transparent;
+}
+
 .moreBTN{
     border: 2px solid lightgrey;
     color:white !important;
@@ -103,8 +113,80 @@ header{
     transition:all 0.3s ease 0s;
     width:145px !important;
 }
-
 .moreBTN:hover{
     border:2px solid white;
     background-color: transparent;
+}
+
+.cirlce{
+    position:absolute;
+    width:100px;
+    height:100px;
+    border:2px solid red;
+    background-color:white
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.stickyHeader{
+    padding-bottom:5px;
+    background-color:white;
+    top:0px;
+    position:sticky;
+    width:100%;
+    height:60px;
+    padding-top:5px;
+}
+
+#landingInfo{
+    text-align:center;
+    background-color:white;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/row.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/rowpic.jpg);
+    background-size: cover;
+    background-position: right top;
+    background-attachment:fixed;
+}
+
+.feature{
+    height:200px;
+    width:200px;
+    display:inline-block;
+    border:2px solid white;
+    border-radius: 10%;
+    margin-top:10px;
+    text-align:center;
+}
+.featureBox{
+    z-index:-10;
+    color:white;
+    font-weight:
+}
+
+#siteMap{
+    text-align: center;
+    background-color:#26AAE1;
+    color:white;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.mapSection{
+    text-align:center;
+    width:32%;
+    display:inline-block;
+    padding:0px !important;
+    margin:0 !important;
+    vertical-align:top;
+}
+.sectionElem{
+    display:block;
+    color:white;
+}
+
+@media (max-width:600px){
+    .mapSection{
+        display:block;
+        width:100%;
+    }
 }
