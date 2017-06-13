@@ -46,7 +46,7 @@ header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen1.jpg);
     background-size: cover;
     background-position: center;
-    height:100vh;
+    min-height:100vh;
     background-attachment:fixed;
     transition:all 0.3s ease 0s;
 }
@@ -111,7 +111,6 @@ header{
     font-weight: bold;
     background-color:lightgrey;
     transition:all 0.3s ease 0s;
-    width:145px !important;
 }
 .moreBTN:hover{
     border:2px solid white;
