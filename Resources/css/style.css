@@ -1,0 +1,110 @@
+/* LANDING */
+
+.navIcon{
+    background-image: url(img/IOlogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index:1001;
+}
+
+.divNav{
+    display:none;
+    position:fixed;
+    height:100vh;
+    width:100%;
+    background-color:rgba(255,255,255,.9);
+    color:white;
+    z-index:1000;
+    transition:all 0.3s ease 0s;
+    text-align: center;
+}
+
+.showNav{
+    display:inline-block;
+    transition:all 0.3s ease 0s;
+}
+
+.navItem{
+    font-size:24px;
+    transition:all 0.3s ease 0s;
+    color:#26AAE1;
+    font-weight: bold;
+    border-bottom:2px solid transparent;
+}
+
+.navItem:hover{
+    border-bottom:2px solid #26AAE1;
+}
+
+header{
+    transition:all 0.3s ease 0s;
+}
+
+.landingHeader1 {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen1.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    background-attachment:fixed;
+    transition:all 0.3s ease 0s;
+}
+
+.landingHeader2 {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen2.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    background-attachment:fixed;
+    transition:all 0.3s ease 0s;
+}
+
+.landingHeader3 {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen3.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    background-attachment:fixed;
+    transition:all 0.3s ease 0s;
+}
+
+.landBTN{
+    border:1px solid transparent;
+    color:white !important;
+    font-weight: bold;
+    transition:all 0.3s ease 0s;
+}
+
+.joinBTN{
+    border:2px solid #26AAE1;
+    background-color: #26AAE1;
+}
+.joinBTN:hover{
+    border:2px solid #26AAE1;
+    background-color: transparent;
+}
+
+.passBTN{
+    border:2px solid #F15A2A;
+    background-color: #F15A2A;
+}
+.passBTN:hover{
+    border:2px solid #F15A2A;
+    background-color: transparent;
+}
+
+.moreBTN{
+    border: 2px solid lightgrey;
+    color:white !important;
+    font-weight: bold;
+    background-color:lightgrey;
+    transition:all 0.3s ease 0s;
+    width:145px !important;
+}
+
+.moreBTN:hover{
+    border:2px solid white;
+    background-color: transparent;
+}
