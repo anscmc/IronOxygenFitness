@@ -10,12 +10,13 @@
         <link rel="stylesheet" type="text/css" href="Resources/css/animate.css">
         <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
-        
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
 
         <script type="text/javascript">
+
             //auto changing background
             var counter = 1,
             int = setInterval(function(){
@@ -127,27 +128,75 @@
               </div>
           </div>
           <div class="bigFeature bigKids">
-              <div class="smallFeature">
+              <div class="smallFeature kidsFeature">
                   <div class="featureX" onclick="showKids()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
-                  kid zone
+                  Kids Club Hours
+                  <div class="dayCareWrap">
+                      <div class="dayCare">
+                          <div style="height:33%;background-color:#F15A2A">SUN</div>
+                          <div style="height:33%;background-color:#26AAE1">closed</div>
+                          <div style="height:33%;background-color:#26AAE1;color:#26AAE1">.</div>
+                      </div>
+                      <div class="dayCare">
+                          <div style="height:33%;background-color:#F15A2A">MON</div>
+                          <div style="height:33%;background-color:#26AAE1">8-1A</div>
+                          <div style="height:33%;background-color:#26AAE1">3:45-8P</div>
+                          
+                      </div>
+                      <div class="dayCare">
+                          <div style="height:33%;background-color:#F15A2A">TUE</div>
+                          <div style="height:33%;background-color:#26AAE1">8-1A</div>
+                          <div style="height:33%;background-color:#26AAE1">3:45-8P</div>
+                      </div>
+                      <div class="dayCare">
+                          <div style="height:33%;background-color:#F15A2A">WED</div>
+                          <div style="height:33%;background-color:#26AAE1">8-1A</div>
+                          <div style="height:33%;background-color:#26AAE1">3:45-8P</div>
+                      </div>
+                      <br>
+                      
+                      <div class="dayCare">
+                          <div style="height:33%;background-color:#F15A2A">THU</div>
+                          <div style="height:33%;background-color:#26AAE1">8-1A</div>
+                          <div style="height:33%;background-color:#26AAE1">3:45-8P</div>
+                      </div>
+                      <div class="dayCare">
+                          <div style="height:33%;background-color:#F15A2A">FRI</div>
+                          <div style="height:33%;background-color:#26AAE1">8-1A</div>
+                          <div style="height:33%;background-color:#26AAE1">3:45-8P</div>
+                      </div>
+                      <div class="dayCare">
+                          <div style="height:33%;background-color:#F15A2A">SAT</div>
+                          <div style="height:33%;background-color:#26AAE1">8-1A</div>
+                          <div style="height:33%;background-color:#26AAE1;color:#26AAE1">.</div>
+                      </div>
+                  </div>
               </div>
           </div>
           <div class="bigFeature bigGallery">
               <div class="smallFeature">
                   <div class="featureX" onclick="showGallery()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
-                  gallery
+
+
               </div>
           </div>
           <div class="bigFeature bigSchedule">
-              <div class="smallFeature">
+              <div class="smallFeature scheduleFeature">
                   <div class="featureX" onclick="showSchedule()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
-                  schedule
+                
+                  
+                  <script src="https://widgets.healcode.com/javascripts/healcode.js" type="text/javascript"></script>
+                  
+                  <div class="schedDiv">
+ 
+                  <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="cd42317d43d" data-widget-version="0.1"></healcode-widget>
+                  </div>
               </div>
           </div>
           <div class="bigFeature bigMap">
               <div class="smallFeature">
                   <div class="featureX" onclick="showMap()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
-                  map
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.1190273516245!2d-80.1303634853303!3d42.10492155916947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88327fbd975a4669%3A0x9019d7357fe62d71!2sIron+Oxygen+Fitness!5e0!3m2!1sen!2sus!4v1497462878861"  frameborder="0" style="border:0;height:300px;width:100%;margin-top:30px;" allowfullscreen></iframe>
               </div>
           </div>
           
@@ -199,7 +248,7 @@
           <div class="feature" onclick="showWebOffer()">web offer</div>
           <div class="feature" onclick="showPromos()">promos</div>
           <div class="feature" onclick="showRefer()">refer a friend</div>
-          <div class="feature" onclick="showKids()">kid zone</div>
+          <div class="feature" onclick="showKids()">kids club</div>
           <div class="feature" onclick="showGallery()">gallery</div>
           <div class="feature" onclick="showSchedule()">schedule</div>
           <div class="feature" onclick="showMap()">map</div>
