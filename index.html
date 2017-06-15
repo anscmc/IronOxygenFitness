@@ -68,6 +68,12 @@
         function showPromos(){
             $("div.bigPromos").fadeToggle("slow"); $("div.bigPromos").toggleClass("showFeature"); 
         }
+        function showContact(){
+            $("div.bigContact").fadeToggle("slow");
+
+            $("div.contactFeature").toggleClass("slideOutDown slideInUp"); 
+            $("div.bigContact").toggleClass("showFeature"); 
+        }
         function showRefer(){
             $("div.bigRefer").fadeToggle("slow"); $("div.bigRefer").toggleClass("showFeature"); 
         }
@@ -130,6 +136,27 @@
               <div class="smallFeature">
                   <div class="featureX" onclick="showRefer()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
                   refer a friend
+              </div>
+          </div>
+          <div class="bigFeature bigContact">
+              <div class="smallFeature contactFeature animated slideOutDown">
+                  <div class="featureX" onclick="showContact()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
+                  
+                  
+                  <div style="padding-top:30px">
+                
+                     <a >Iron Oxygen Fitness</a>
+                     <br>
+                      <a href="tel:814-315-2994"><i class="fa fa-phone" style="color:#F15A2A" aria-hidden="true"></i> 814-315-2994</a>
+                      <br>
+                      <a href="mailto:info@ironoxygenfitness.com"><i style="color:#F15A2A" class="fa fa-envelope" aria-hidden="true"></i> info@ironoxygenfitness.com</a>
+                      <br>
+                      <a onclick="showMap()"><i class="fa fa-map-marker" style="color:#F15A2A" aria-hidden="true"></i> 2147 West 12th Street, Erie, PA 16505</a>
+          <br>
+                     <br>
+                      <i class="fa fa-instagram" aria-hidden="true" style="font-size:40px;padding-right:15px;"></i>
+                      <i class="fa fa-facebook-square" style="font-size:40px;padding-left:15px;" aria-hidden="true"></i>
+                  </div>
               </div>
           </div>
           <div class="bigFeature bigKids">
@@ -262,8 +289,8 @@
          <div class="mapSection" style="top:0">
              <span style="font-size:20px;font-weight:bold;color:#F15A2A !important;">SUPPORT</span>
              <a onclick="showMap()" class="sectionElem">Map &amp; Directions</a>
-             <a class="sectionElem">Contact Us</a>
-             <a class="sectionElem">Holiday Hours</a>
+             <a onclick="showContact()" class="sectionElem">Contact Us</a>
+             <a onclick="showHoliday()" class="sectionElem">Holiday Hours</a>
          </div>
       </div>
       

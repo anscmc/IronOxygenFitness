@@ -295,6 +295,9 @@ header{
 .kidsFeature{
     height:200px;
 }
+.contactFeature{
+    height:200px;
+}
 
 @media (max-width:338px){
     .kidsFeature{
