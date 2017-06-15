@@ -359,5 +359,17 @@ box-shadow: 0 0 15px 0 #26AAE1;
 }
 }
 
+.bigSched{
+    display:none;
+    position:fixed;
+    height:100vh;
+    width:100%;
+    background-color:rgba(0,0,0,.75);
+    color:white;
+    z-index:1002;
+/*    transition:all 0.3s ease 0s;*/
+    text-align: center;
+}
+
 
 
