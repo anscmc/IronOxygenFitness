@@ -87,6 +87,7 @@ header{
     color:white !important;
     font-weight: bold;
     transition:all 0.3s ease 0s;
+    border-radius: 10px;
 }
 
 .joinBTN{
@@ -122,6 +123,7 @@ header{
     font-weight: bold;
     background-color:lightgrey;
     transition:all 0.3s ease 0s;
+    border-radius: 10px;
 }
 .moreBTN:hover{
     border:2px solid white;
@@ -232,13 +234,22 @@ header{
 /*    transition:all 0.3s ease 0s;*/
     text-align: center;
 }
+.bigSchedFeature{
+    display:none;
+    width:100%;
+    background-color:rgba(0,0,0,.75);
+    color:white;
+    z-index:1002;
+/*    transition:all 0.3s ease 0s;*/
+    text-align: center;
+}
 .smallFeature{
     background-color:#26AAE1;
     border:3px solid white;
     height:80%;
     max-height:400px;
     max-width:400px;
-    width:80%;
+    width:100%;
     margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
@@ -281,6 +292,71 @@ header{
 }
 .kidsFeature{
     height:200px;
+}
+
+@media (max-width:338px){
+    .kidsFeature{
+        height:300px;
+    }
+}
+
+#headLine{
+    border-top:.25px solid lightgrey;
+    padding-bottom:5px;
+    width:75%;
+    margin:0 auto;
+    max-width:400px;
+}
+
+.memOffer{
+    text-align:center;
+    background-color:white;
+    border-radius: 10px;
+    border:1px solid #26AAE1;
+    display:inline-block;
+    width:100%;
+    max-width:300px;
+    margin:5px;
+    color:black;
+    -moz-box-shadow: 0 0 15px 0 #26AAE1;
+-webkit-box-shadow: 0 0 15px 0 #26AAE1;
+box-shadow: 0 0 15px 0 #26AAE1;
+    height:198px;
+    vertical-align: top;
+}
+
+.memBTN{
+    background-color:#F15A2A;
+    color:white;
+    margin-bottom:10px;
+    border:1px solid #F15A2A;
+    height:30px;
+    line-height:15px;
+    transition:all 0.3s ease 0s;
+    border-radius:15px;
+}
+.memBTN:hover{
+    background-color: white;
+    color:#F15A2A;
+}
+.memP{
+    font-size:8px;
+    text-align:left;
+    padding-left:2px
+}
+#memHead{
+    min-height: 70%;
+    min-height: -webkit-calc(100% - 96px);
+    min-height: -moz-calc(100% - 96px);
+    min-height: calc(100% - 966px);
+}
+
+@media (min-width:601px){
+    .memMap{
+    position:absolute;
+    width:100%;
+    bottom:0;
+}
 }
 
 
