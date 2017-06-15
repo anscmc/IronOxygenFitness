@@ -33,20 +33,20 @@
 /*    transition:all 0.3s ease 0s;*/
 }
 
+.divNav a{
+    color:#F15A2A;
+    transition:all 0.3s ease 0s;
+}
 .navItem{
     font-size:24px;
-/*    transition:all 0.3s ease 0s;*/
+    transition:all 0.3s ease 0s;
     color:#26AAE1;
     font-weight: bold;
-    border-bottom:2px solid transparent;
 }
 .navItem:hover{
     cursor:pointer;
 }
 
-.navItem:hover{
-    border-bottom:2px solid #26AAE1;
-}
 
 header{
 /*    transition:all 0.3s ease 0s;*/
@@ -182,14 +182,13 @@ header{
 
 .feature{
     height:200px;
-    width:200px;
+    width:300px;
     display:inline-block;
-    border:2px solid white;
-    border-radius: 10%;
     margin-top:10px;
     color:white;
     font-weight: bold;
     text-align:center;
+    border-radius:20px;
 }
 .feature:hover{
     cursor:pointer;
@@ -214,6 +213,9 @@ header{
 .sectionElem{
     display:block;
     color:white;
+}
+.sectionElem:hover{
+    cursor: pointer;
 }
 
 @media (max-width:600px){
@@ -369,6 +371,48 @@ box-shadow: 0 0 15px 0 #26AAE1;
     z-index:1002;
 /*    transition:all 0.3s ease 0s;*/
     text-align: center;
+}
+.rec{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:all 0.3s ease 0s;
+}
+.rec:hover{
+    -moz-box-shadow: 0 0 25px 5px #F15A2A;
+    -webkit-box-shadow: 0 0 25px 5px #F15A2A;
+    box-shadow: 0 0 25px 5px #F15A2A;
+}
+.rec:active{
+    -moz-box-shadow: 0 0 25px 5px #F15A2A;
+    -webkit-box-shadow: 0 0 25px 5px #F15A2A;
+    box-shadow: 0 0 25px 5px #F15A2A;
+}
+
+#amenities{
+    background-image: url(img/features/amenities.png);
+}
+#refer{
+    background-image: url(img/features/refer.png);
+}
+#promos{
+    background-image: url(img/features/currentpromo.png);
+}
+#kids{
+    background-image: url(img/features/kidsclub.png);
+}
+#web{
+    background-image: url(img/features/weboffer.png);
+}
+#schedule{
+    background-image: url(img/features/classschedule.png);
+}
+#gallery{
+    background-image: url(img/features/gallery.png);
+}
+
+#map{
+    background-image: url(img/features/MapandDirections.png);
 }
 
 

@@ -77,12 +77,8 @@
             $("div.kidsFeature").toggleClass("slideOutDown slideInUp"); 
             $("div.bigKids").toggleClass("showFeature"); 
         }
-        function showGallery(){
-            $("div.bigGallery").fadeToggle("slow"); $("div.bigGallery").toggleClass("showFeature"); 
-        }
-        function showSchedule(){
-            $("div.bigSchedule").fadeToggle("slow"); $("div.bigSchedule").toggleClass("showFeature"); 
-        }
+
+
         function showMap(){
             $("div.bigMap").fadeToggle("slow"); $("div.bigMap").toggleClass("showFeature"); 
         }
@@ -95,17 +91,17 @@
     <body>
       <header id="top" class="landingHeader1">
           
-          <div class="divNav animated slideOutRight">
-             <div style="top:20%;position:absolute;width:100%">
-              <span class="navItem">Nav Item 1</span>
+          <div style="text-align:center" class="divNav animated slideOutRight">
+             <div style="top:20%;position:absolute;width:320px;text-align:center;margin-left:-150px;left:50%;">
+              <a href="index.html"><span class="navItem">Home</span></a>
               <br>
-              <span class="navItem">Nav Item 2</span>
+              <a href="Pages/memberships.html"><span class="navItem">Join Now</span></a>
               <br>
-              <span class="navItem">Nav Item 3</span>
+              <a href="index.html"><span class="navItem">Free Trial Membership</span></a>
               <br>
-              <span class="navItem">Nav Item 4</span>
+              <a onclick="showHoliday()"><span class="navItem">Holiday Hours</span></a>
               <br>
-              <span class="navItem">Nav Item 5</span>
+              <a onclick="showConact()"><span class="navItem">Contact</span></a>
               <br>
              </div>
           </div>
@@ -182,26 +178,6 @@
                   </div>
               </div>
           </div>
-          <div class="bigFeature bigGallery">
-              <div class="smallFeature">
-                  <div class="featureX" onclick="showGallery()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
-
-
-              </div>
-          </div>
-          <div class="bigFeature bigSchedule">
-              <div class="smallFeature scheduleFeature">
-                  <div class="featureX" onclick="showSchedule()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
-                
-                  
-                  <script src="https://widgets.healcode.com/javascripts/healcode.js" type="text/javascript"></script>
-                  
-                  <div class="schedDiv">
- 
-                  <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="cd42317d43d" data-widget-version="0.1"></healcode-widget>
-                  </div>
-              </div>
-          </div>
           <div class="bigFeature bigMap">
               <div class="smallFeature">
                   <div class="featureX" onclick="showMap()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
@@ -226,7 +202,7 @@
                <p style="color:white;font-size:12px;max-width:400px;margin:0 auto;text-align:center;font-weight:bold;padding-left:10px;padding-right:10px;">MEMBERSHIPS START AT $19.99 PER MONTH. GET GROUP FITNESS, CHILDCARE, AND TRAINING FREE! POWER ON.
                </p>
                <br>
-               <a class="btn landBTN joinBTN"  style="margin-bottom:10px;width:200px;font-size:16px;text-align:center;height:25px;padding:0;">Join Now <i class="fa fa-arrow-right" style="padding-left:75px" aria-hidden="true"></i></a>
+               <a href="Pages/memberships.html" class="btn landBTN joinBTN"  style="margin-bottom:10px;width:200px;font-size:16px;text-align:center;height:25px;padding:0;">Join Now <i class="fa fa-arrow-right" style="padding-left:75px" aria-hidden="true"></i></a>
                
                <a target="_blank" class="btn landBTN passBTN"  style="margin-bottom:10px;width:200px;font-size:16px;text-align:center;height:25px;padding:0;">7 Day Pass <i class="fa fa-arrow-right" style="padding-left:61px" aria-hidden="true"></i></a>
                
@@ -254,14 +230,14 @@
           </div>
           
           
-          <div class="feature" onclick="showAmen()">amenities</div>
-          <a target="_blank" href="https://clients.mindbodyonline.com/classic/ws?studioid=481565&stype=40&prodId=155"><div class="feature" onclick="showWebOffer()">web offer</div></a>
-          <div class="feature" onclick="showPromos()">promos</div>
-          <div class="feature" onclick="showRefer()">refer a friend</div>
-          <div class="feature" onclick="showKids()">kids club</div>
-          <div class="feature" onclick="showGallery()">gallery</div>
-          <div class="feature" onclick="showSchedule()">schedule</div>
-          <div class="feature" onclick="showMap()">map</div>
+          <div id="amenities" class="feature rec" onclick="showAmen()"></div>
+          <a target="_blank" href="https://clients.mindbodyonline.com/classic/ws?studioid=481565&stype=40&prodId=155"><div id="web" class="feature rec" onclick="showWebOffer()"></div></a>
+          <div id="promos" class="feature rec" onclick="showPromos()"></div>
+          <div id="refer" class="feature rec" onclick="showRefer()"></div>
+          <div id="kids" class="feature rec" onclick="showKids()"></div>
+          <a href="Pages/gallery.html"><div id="gallery" class="feature rec"></div></a>
+          <a href="Pages/schedule.html"><div id="schedule" class="feature rec"></div></a>
+          <div id="map" class="feature rec" onclick="showMap()"></div>
           
           
           
