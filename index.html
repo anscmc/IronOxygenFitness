@@ -52,7 +52,9 @@
 
             
         function showNav(){
-             $("div.divNav").fadeToggle("slow"); $("div.divNav").toggleClass("showNav"); 
+             $("div.divNav").fadeToggle("slow");
+            
+            $("div.divNav").toggleClass("showNav slideOutRight slideInRight"); 
         }
             
         function showAmen(){
@@ -68,7 +70,8 @@
             $("div.bigRefer").fadeToggle("slow"); $("div.bigRefer").toggleClass("showFeature"); 
         }
         function showKids(){
-            $("div.bigKids").fadeToggle("slow"); $("div.bigKids").toggleClass("showFeature"); 
+            $("div.bigKids").fadeToggle("slow");
+           $("div.kidsFeature").toggleClass("slideOutDown slideInUp"); $("div.bigKids").toggleClass("showFeature"); 
         }
         function showGallery(){
             $("div.bigGallery").fadeToggle("slow"); $("div.bigGallery").toggleClass("showFeature"); 
@@ -88,7 +91,7 @@
     <body>
       <header id="top" class="landingHeader1">
           
-          <div class="divNav">
+          <div class="divNav animated slideOutRight">
              <div style="top:20%;position:absolute;width:100%">
               <span class="navItem">Nav Item 1</span>
               <br>
@@ -128,7 +131,7 @@
               </div>
           </div>
           <div class="bigFeature bigKids">
-              <div class="smallFeature kidsFeature">
+              <div class="smallFeature kidsFeature animated slideOutDown">
                   <div class="featureX" onclick="showKids()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
                   Kids Club Hours
                   <div class="dayCareWrap">
@@ -196,6 +199,7 @@
           <div class="bigFeature bigMap">
               <div class="smallFeature">
                   <div class="featureX" onclick="showMap()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
+                  Map &amp; Directions
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.1190273516245!2d-80.1303634853303!3d42.10492155916947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88327fbd975a4669%3A0x9019d7357fe62d71!2sIron+Oxygen+Fitness!5e0!3m2!1sen!2sus!4v1497462878861"  frameborder="0" style="border:0;height:300px;width:100%;margin-top:30px;" allowfullscreen></iframe>
               </div>
           </div>
@@ -244,7 +248,7 @@
           </div>
           
           
-          <div class="feature" onclick="showAmen()">feature</div>
+          <div class="feature" onclick="showAmen()">amenities</div>
           <div class="feature" onclick="showWebOffer()">web offer</div>
           <div class="feature" onclick="showPromos()">promos</div>
           <div class="feature" onclick="showRefer()">refer a friend</div>
