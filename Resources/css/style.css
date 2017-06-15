@@ -35,7 +35,7 @@
 
 .navItem{
     font-size:24px;
-    transition:all 0.3s ease 0s;
+/*    transition:all 0.3s ease 0s;*/
     color:#26AAE1;
     font-weight: bold;
     border-bottom:2px solid transparent;
@@ -49,7 +49,7 @@
 }
 
 header{
-    transition:all 0.3s ease 0s;
+/*    transition:all 0.3s ease 0s;*/
 }
 
 .landingHeader1 {
@@ -59,7 +59,7 @@ header{
     background-position: center;
     height:100vh;
     background-attachment:fixed;
-    transition:all 0.3s ease 0s;
+/*    transition:all 0.3s ease 0s;*/
 }
 
 .landingHeader2 {
@@ -69,7 +69,7 @@ header{
     background-position: center;
     height:100vh;
     background-attachment:fixed;
-    transition:all 0.3s ease 0s;
+/*    transition:all 0.3s ease 0s;*/
 }
 
 .landingHeader3 {
@@ -79,7 +79,7 @@ header{
     background-position: center;
     height:100vh;
     background-attachment:fixed;
-    transition:all 0.3s ease 0s;
+/*    transition:all 0.3s ease 0s;*/
 }
 
 .landBTN{
