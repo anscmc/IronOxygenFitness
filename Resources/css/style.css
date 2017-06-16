@@ -53,8 +53,8 @@ header{
 }
 
 .landingHeader1 {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen1.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen1.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO15.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO15.jpg);
     background-size: cover;
     background-position: center;
     height:100vh;
@@ -63,8 +63,8 @@ header{
 }
 
 .landingHeader2 {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen2.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen2.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO10.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO10.jpg);
     background-size: cover;
     background-position: center;
     height:100vh;
@@ -73,8 +73,8 @@ header{
 }
 
 .landingHeader3 {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen3.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/ironoxygen3.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO8.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO8.jpg);
     background-size: cover;
     background-position: center;
     height:100vh;
@@ -298,6 +298,9 @@ header{
 .contactFeature{
     height:200px;
 }
+.holidayFeature{
+    height:200px;
+}
 
 @media (max-width:338px){
     .kidsFeature{
@@ -428,6 +431,16 @@ box-shadow: 0 0 15px 0 #26AAE1;
 
 #map{
     background-image: url(img/features/MapandDirections.png);
+}
+
+.trialHeader{
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO2.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    background-attachment:fixed;
+    text-align: center;
 }
 
 

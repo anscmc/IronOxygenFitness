@@ -60,13 +60,19 @@
         
             
         function showAmen(){
-            $("div.bigAmen").fadeToggle("slow"); $("div.bigAmen").toggleClass("showFeature"); 
+            $("div.bigAmen").fadeToggle("slow");
+
+            $("div.amenFeature").toggleClass("slideOutDown slideInUp"); 
+            $("div.bigAmen").toggleClass("showFeature"); 
         }
 //        function showWebOffer(){
 //            $("div.bigWebOffer").fadeToggle("slow"); $("div.bigWebOffer").toggleClass("showFeature"); 
 //        }
         function showPromos(){
-            $("div.bigPromos").fadeToggle("slow"); $("div.bigPromos").toggleClass("showFeature"); 
+            $("div.bigPromo").fadeToggle("slow");
+
+            $("div.promoFeature").toggleClass("slideOutDown slideInUp"); 
+            $("div.bigPromo").toggleClass("showFeature"); 
         }
         function showContact(){
             $("div.bigContact").fadeToggle("slow");
@@ -80,9 +86,7 @@
             $("div.holidayFeature").toggleClass("slideOutDown slideInUp"); 
             $("div.bigHoliday").toggleClass("showFeature"); 
         }
-        function showRefer(){
-            $("div.bigRefer").fadeToggle("slow"); $("div.bigRefer").toggleClass("showFeature"); 
-        }
+
         function showKids(){
             $("div.bigKids").fadeToggle("slow");
 
@@ -91,8 +95,16 @@
         }
 
 
+        function showRefer(){
+            $("div.bigRefer").fadeToggle("slow");
+
+            $("div.referFeature").toggleClass("slideOutDown slideInUp"); 
+            $("div.bigRefer").toggleClass("showFeature"); 
+        }
         function showMap(){
-            $("div.bigMap").fadeToggle("slow"); $("div.bigMap").toggleClass("showFeature"); 
+            $("div.bigMap").fadeToggle("slow");
+            $("div.mapFeature").toggleClass("slideOutDown slideInUp"); 
+            $("div.bigMap").toggleClass("showFeature"); 
         }
             
             
@@ -109,17 +121,17 @@
               <br>
               <a href="Pages/memberships.html"><span class="navItem">Join Now</span></a>
               <br>
-              <a href="index.html"><span class="navItem">Free Trial Membership</span></a>
+              <a target="_blank" href="Pages/freetrial.html"><span class="navItem">Free Trial Membership</span></a>
               <br>
               <a onclick="showHoliday()"><span class="navItem">Holiday Hours</span></a>
               <br>
-              <a onclick="showConact()"><span class="navItem">Contact</span></a>
+              <a onclick="showContact()"><span class="navItem">Contact</span></a>
               <br>
              </div>
           </div>
           
           <div class="bigFeature bigAmen">
-              <div class="smallFeature">
+              <div class="smallFeature amenFeature animated slideOutDown">
                   <div class="featureX" onclick="showAmen()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
                   COMING SOON!
               </div>
@@ -132,37 +144,37 @@
               </div>
           </div>
 -->
-          <div class="bigFeature bigPromos">
-              <div class="smallFeature">
+          <div class="bigFeature bigPromo">
+              <div class="smallFeature promoFeature animated slideOutDown">
                   <div class="featureX" onclick="showPromos()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
                   COMING SOON!
               </div>
           </div>
           <div class="bigFeature bigRefer">
-              <div class="smallFeature">
+              <div class="smallFeature referFeature animated slideOutDown">
                   <div class="featureX" onclick="showRefer()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
                   COMING SOON!
               </div>
           </div>
           <div class="bigFeature bigHoliday">
               <div class="smallFeature holidayFeature animated slideOutDown">
-                  <div class="featureX" onclick="showContact()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
+                  <div class="featureX" onclick="showHoliday()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
                   
                   <div style="text-align:center;display:block;margin-top:20px">
+                  <span style="color:#F15A2A;font-weight:bold;">Holiday Hours</span>
+                  <br>
+
                   <div style="display:inline-block;text-align:left">
-                
-                     <a style="color:#F15A2A;font-weight:bold;text-decoration:underline">Iron Oxygen Fitness</a>
-                     <br>
-                      <a href="tel:814-315-2994"><i class="fa fa-phone" style="color:#F15A2A" aria-hidden="true"></i> 814-315-2994</a>
+
+                      <span>Christmas Eve: 6AM - 1PM</span>
                       <br>
-                      <a href="mailto:info@ironoxygenfitness.com"><i style="color:#F15A2A" class="fa fa-envelope" aria-hidden="true"></i> info@ironoxygenfitness.com</a>
+                      <span>Christmas: CLOSED</span>
                       <br>
-                      <a class="address" onclick="showMap()"><i class="fa fa-map-marker" style="color:#F15A2A" aria-hidden="true"></i> 2147 West 12th Street, Erie, PA 16505</a>
+                      <span>New Years Eve: 6AM - 3PM</span>
+                      <br>
+                      <span>New Years Day: 6AM - 6PM</span>
                       </div>
                       </div>
-                     <br>
-                      <a class="social" target="_blank" href="https://www.facebook.com/IronOxygen/"><i class="fa fa-instagram" aria-hidden="true" style="font-size:40px;padding-right:15px;"></i></a>
-                      <a class="social" target="_blank" href="https://www.instagram.com/ironoxygenfitness/"><i class="fa fa-facebook-square" style="font-size:40px;padding-left:15px;" aria-hidden="true"></i></a>
                   
               </div>
           </div>
@@ -173,7 +185,7 @@
                   <div style="text-align:center;display:block;margin-top:20px">
                   <div style="display:inline-block;text-align:left">
                 
-                     <a style="color:#F15A2A;font-weight:bold;text-decoration:underline">Iron Oxygen Fitness</a>
+                     <span style="color:#F15A2A;font-weight:bold;">Iron Oxygen Fitness</span>
                      <br>
                       <a href="tel:814-315-2994"><i class="fa fa-phone" style="color:#F15A2A" aria-hidden="true"></i> 814-315-2994</a>
                       <br>
@@ -235,10 +247,11 @@
               </div>
           </div>
           <div class="bigFeature bigMap">
-              <div class="smallFeature">
+              <div class="smallFeature mapFeature animated slideOutDown">
                   <div class="featureX" onclick="showMap()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
-                  Map &amp; Directions
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.1190273516245!2d-80.1303634853303!3d42.10492155916947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88327fbd975a4669%3A0x9019d7357fe62d71!2sIron+Oxygen+Fitness!5e0!3m2!1sen!2sus!4v1497462878861"  frameborder="0" style="border:0;height:300px;width:100%;margin-top:30px;" allowfullscreen></iframe>
+<br>
+                  <span>2147 West 12th Street, Erie, PA 16505</span>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.1190273516245!2d-80.1303634853303!3d42.10492155916947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88327fbd975a4669%3A0x9019d7357fe62d71!2sIron+Oxygen+Fitness!5e0!3m2!1sen!2sus!4v1497462878861"  frameborder="0" style="border:0;height:340px;width:100%;margin-top:0px;" allowfullscreen></iframe>
               </div>
           </div>
           
@@ -260,7 +273,7 @@
                <br>
                <a href="Pages/memberships.html" class="btn landBTN joinBTN"  style="margin-bottom:10px;width:200px;font-size:16px;text-align:center;height:25px;padding:0;">Join Now <i class="fa fa-arrow-right" style="padding-left:75px" aria-hidden="true"></i></a>
                
-               <a target="_blank" class="btn landBTN passBTN"  style="margin-bottom:10px;width:200px;font-size:16px;text-align:center;height:25px;padding:0;">7 Day Pass <i class="fa fa-arrow-right" style="padding-left:61px" aria-hidden="true"></i></a>
+               <a target="_blank" href="Pages/freetrial.html" class="btn landBTN passBTN"  style="margin-bottom:10px;width:200px;font-size:16px;text-align:center;height:25px;padding:0;">7 Day Pass <i class="fa fa-arrow-right" style="padding-left:61px" aria-hidden="true"></i></a>
                
                <a href="tel:814-315-2994" class="btn phoneBTN landBTN" style="margin-bottom:10px;width:200px;font-size:16px;text-align:center;height:25px;padding:0;"><i class="fa fa-phone" aria-hidden="true"></i> 814-315-2994</a>
                
@@ -306,7 +319,7 @@
          <div class="mapSection">
              <span style="font-size:20px;font-weight:bold;color:#F15A2A !important;">POWER ON</span>
              <a href="Pages/memberships.html" class="sectionElem">Join Now</a>
-             <a class="sectionElem">Free Trial</a>
+             <a target="_blank" href="Pages/freetrial.html" class="sectionElem">Free Trial</a>
              <a href="Pages/memberships.html" class="sectionElem">Membership</a>
          </div>
           <div class="mapSection">
@@ -320,6 +333,10 @@
              <a onclick="showMap()" class="sectionElem">Map &amp; Directions</a>
              <a onclick="showContact()" class="sectionElem">Contact Us</a>
              <a onclick="showHoliday()" class="sectionElem">Holiday Hours</a>
+         </div>
+         <div style="border-top:.1px solid white;width:75%;max-width:400px;margin:0 auto;margin-top:5px;"></div>
+         <div style="font-size:12px;font-weight:100 !important;padding-top:5px;">
+             Copyright &copy 2017 Iron Oxygen Fitness - <a style="text-decoration:underline" target="_blank" href="Pages/terms.html">Terms of Service</a>
          </div>
       </div>
       

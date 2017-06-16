@@ -26,7 +26,29 @@
            
             $("div.divNav").toggleClass("showNav slideOutRight slideInRight");              $("div.iButt").toggleClass("tada shake");
         }
-        
+        function showContact(){
+            $("div.bigContact").fadeToggle("slow");
+
+            $("div.contactFeature").toggleClass("slideOutDown slideInUp"); 
+            $("div.bigContact").toggleClass("showFeature"); 
+        }
+            function showHoliday(){
+            $("div.bigHoliday").fadeToggle("slow");
+
+            $("div.holidayFeature").toggleClass("slideOutDown slideInUp"); 
+            $("div.bigHoliday").toggleClass("showFeature"); 
+        }
+        function showRefer(){
+            $("div.bigRefer").fadeToggle("slow");
+
+            $("div.referFeature").toggleClass("slideOutDown slideInUp"); 
+            $("div.bigRefer").toggleClass("showFeature"); 
+        }
+        function showMap(){
+            $("div.bigMap").fadeToggle("slow");
+            $("div.mapFeature").toggleClass("slideOutDown slideInUp"); 
+            $("div.bigMap").toggleClass("showFeature"); 
+        }
        
             
         </script>
@@ -41,15 +63,72 @@
               <br>
               <a href="memberships.html"><span class="navItem">Join Now</span></a>
               <br>
-              <a href="index.html"><span class="navItem">Free Trial Membership</span></a>
+              <a target="_blank" href="freetrial.html"><span class="navItem">Free Trial Membership</span></a>
               <br>
               <a onclick="showHoliday()"><span class="navItem">Holiday Hours</span></a>
               <br>
-              <a onclick="showConact()"><span class="navItem">Contact</span></a>
+              <a onclick="showContact()"><span class="navItem">Contact</span></a>
               <br>
              </div>
           </div>
-          
+          <div class="bigFeature bigRefer">
+              <div class="smallFeature referFeature animated slideOutDown">
+                  <div class="featureX" onclick="showRefer()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
+                  COMING SOON!
+              </div>
+          </div>
+          <div class="bigFeature bigHoliday">
+              <div class="smallFeature holidayFeature animated slideOutDown">
+                  <div class="featureX" onclick="showHoliday()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
+                  
+                  <div style="text-align:center;display:block;margin-top:20px">
+                  <span style="color:#F15A2A;font-weight:bold;">Holiday Hours</span>
+                  <br>
+
+                  <div style="display:inline-block;text-align:left">
+
+                      <span>Christmas Eve: 6AM - 1PM</span>
+                      <br>
+                      <span>Christmas: CLOSED</span>
+                      <br>
+                      <span>New Years Eve: 6AM - 3PM</span>
+                      <br>
+                      <span>New Years Day: 6AM - 6PM</span>
+                      </div>
+                      </div>
+                  
+              </div>
+          </div>
+          <div class="bigFeature bigContact">
+              <div class="smallFeature contactFeature animated slideOutDown">
+                  <div class="featureX" onclick="showContact()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
+                  
+                  <div style="text-align:center;display:block;margin-top:20px">
+                  <div style="display:inline-block;text-align:left">
+                
+                     <span style="color:#F15A2A;font-weight:bold;">Iron Oxygen Fitness</span>
+                     <br>
+                      <a href="tel:814-315-2994"><i class="fa fa-phone" style="color:#F15A2A" aria-hidden="true"></i> 814-315-2994</a>
+                      <br>
+                      <a href="mailto:info@ironoxygenfitness.com"><i style="color:#F15A2A" class="fa fa-envelope" aria-hidden="true"></i> info@ironoxygenfitness.com</a>
+                      <br>
+                      <a class="address" onclick="showMap()"><i class="fa fa-map-marker" style="color:#F15A2A" aria-hidden="true"></i> 2147 West 12th Street, Erie, PA 16505</a>
+                      </div>
+                      </div>
+                     <br>
+                      <a class="social" target="_blank" href="https://www.facebook.com/IronOxygen/"><i class="fa fa-instagram" aria-hidden="true" style="font-size:40px;padding-right:15px;"></i></a>
+                      <a class="social" target="_blank" href="https://www.instagram.com/ironoxygenfitness/"><i class="fa fa-facebook-square" style="font-size:40px;padding-left:15px;" aria-hidden="true"></i></a>
+                  
+              </div>
+          </div>
+          <div class="bigFeature bigMap">
+              <div class="smallFeature mapFeature animated slideOutDown">
+                  <div class="featureX" onclick="showMap()"><i class="fa fa-times xBTN" aria-hidden="true"></i></div>
+<br>
+                  <span>2147 West 12th Street, Erie, PA 16505</span>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.1190273516245!2d-80.1303634853303!3d42.10492155916947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88327fbd975a4669%3A0x9019d7357fe62d71!2sIron+Oxygen+Fitness!5e0!3m2!1sen!2sus!4v1497462878861"  frameborder="0" style="border:0;height:340px;width:100%;margin-top:0px;" allowfullscreen></iframe>
+              </div>
+          </div>
           
           
           
@@ -81,21 +160,21 @@
       <div class="animated fadeIn" id="siteMap">
          <div class="mapSection">
              <span style="font-size:20px;font-weight:bold;color:#F15A2A !important;">POWER ON</span>
-             <a href="memberships.html" class="sectionElem">Join Now</a>
-             <a class="sectionElem">Free Trial</a>
-             <a href="memberships.html" class="sectionElem">Membership</a>
+             <a href="Pages/memberships.html" class="sectionElem">Join Now</a>
+             <a target="_blank" href="freetrial.html" class="sectionElem">Free Trial</a>
+             <a href="Pages/memberships.html" class="sectionElem">Membership</a>
          </div>
           <div class="mapSection">
              <span style="font-size:20px;font-weight:bold;color:#F15A2A !important;">SERVICES</span>
-             <a href="https://play.google.com/store/apps/details?id=com.fitnessmobileapps.ironoxygenfitness&hl=en" class="sectionElem">Download Our App</a>
-              <a class="sectionElem">Refer a Friend</a>
+             <a target="_blank" href="https://play.google.com/store/apps/details?id=com.fitnessmobileapps.ironoxygenfitness&hl=en" class="sectionElem">Download Our App</a>
+              <a onclick="showRefer()" class="sectionElem">Refer a Friend</a>
               <a target="_blank" href="https://clients.mindbodyonline.com/ASP/su1.asp?studioid=481565&tg=&vt=&lvl=&stype=&view=&trn=0&page=&catid=&prodid=&date=6%2f15%2f2017&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1" class="sectionElem">Member Login</a>
          </div>
          <div class="mapSection" style="top:0">
              <span style="font-size:20px;font-weight:bold;color:#F15A2A !important;">SUPPORT</span>
              <a onclick="showMap()" class="sectionElem">Map &amp; Directions</a>
-             <a class="sectionElem">Contact Us</a>
-             <a class="sectionElem">Holiday Hours</a>
+             <a onclick="showContact()" class="sectionElem">Contact Us</a>
+             <a onclick="showHoliday()" class="sectionElem">Holiday Hours</a>
          </div>
       </div>
       
