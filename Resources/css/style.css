@@ -1,453 +1,75 @@
-/* LANDING */
-
-
-#rotate{
-    background-image: url(img/landing/navIcon.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index:1001;
-    position:fixed;
-    height:50px;
-    width:45px;
-    right:5px;
-    top:5px;
-}
-#rotate:hover{
-    cursor: pointer;
-}
-
-.divNav{
-    display:none;
-    position:fixed;
-    height:100vh;
-    width:100%;
-    background-color:rgba(255,255,255,.9);
-    color:white;
-    z-index:1000;
-/*    transition:all 0.3s ease 0s;*/
-    text-align: center;
-}
-
-.showNav{
-    display:inline-block;
-/*    transition:all 0.3s ease 0s;*/
-}
-
-.divNav a{
-    color:#F15A2A;
-    transition:all 0.3s ease 0s;
-}
-.navItem{
-    font-size:24px;
-    transition:all 0.3s ease 0s;
-    color:#26AAE1;
-    font-weight: bold;
-}
-.navItem:hover{
-    cursor:pointer;
-}
-
-
-header{
-/*    transition:all 0.3s ease 0s;*/
-}
-
-.landingHeader1 {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO15.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO15.jpg);
-    background-size: cover;
-    background-position: center;
-    height:100vh;
-    background-attachment:fixed;
-/*    transition:all 0.3s ease 0s;*/
-}
-
-.landingHeader2 {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO10.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO10.jpg);
-    background-size: cover;
-    background-position: center;
-    height:100vh;
-    background-attachment:fixed;
-/*    transition:all 0.3s ease 0s;*/
-}
-
-.landingHeader3 {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO8.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO8.jpg);
-    background-size: cover;
-    background-position: center;
-    height:100vh;
-    background-attachment:fixed;
-/*    transition:all 0.3s ease 0s;*/
-}
-
-.landBTN{
-    border:1px solid transparent;
-    color:white !important;
-    font-weight: bold;
-    transition:all 0.3s ease 0s;
-    border-radius: 10px;
-}
-
-.joinBTN{
-    border:2px solid #26AAE1;
-    background-color: #26AAE1;
-}
-.joinBTN:hover{
-    border:2px solid #26AAE1;
-    background-color: transparent;
-}
-
-.passBTN{
-    border:2px solid #F15A2A;
-    background-color: #F15A2A;
-}
-.passBTN:hover{
-    border:2px solid #F15A2A;
-    background-color: transparent;
-}
-
-.phoneBTN{
-    border:2px solid #e13226;
-    background-color: #e13226;
-    text-align: left;
-}
-.phoneBTN:hover{
-    background-color:transparent;
-}
-
-.moreBTN{
-    border: 2px solid lightgrey;
-    color:white !important;
-    font-weight: bold;
-    background-color:lightgrey;
-    transition:all 0.3s ease 0s;
-    border-radius: 10px;
-}
-.moreBTN:hover{
-    border:2px solid white;
-    background-color: transparent;
-}
-
-.dayTime{
-    width:75px;
-    transition:all 0.3s ease 0s;
-    display: inline-block;
-}
-
-@media (max-width:360px){
-    .dayTime{
-        width:40px;
-    }
-}
-
-@media (min-width:560px){
-    .dayTime{
-        margin-top:50px;
-    }
-}
-
-
-/*
-.bigFeature{
-    display:none;
-    position:fixed;
-    height:100vh;
-    width:100%;
-    background-color:rgba(255,255,255,.9);
-    color:white;
-    z-index:1002;
-    transition:all 0.3s ease 0s;
-    text-align: center;
-}
-*/
-
-
-
-
-.stickyHeader{
-    padding-bottom:5px;
-    background-color:white;
-    top:-1px;
-    position:sticky;
-    width:100%;
-    height:60px;
-    padding-top:5px;
-}
-
-#landingInfo{
-    text-align:center;
-    background-color:white;
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/row.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/rowpic.jpg);
-    background-size: cover;
-    background-position: right top;
-    background-attachment:fixed;
-}
-
-.feature{
-    height:200px;
-    width:300px;
-    display:inline-block;
-    margin-top:10px;
-    color:white;
-    font-weight: bold;
-    text-align:center;
-    border-radius:20px;
-}
-.feature:hover{
-    cursor:pointer;
-}
-
-
-#siteMap{
-    text-align: center;
-    background-color:#26AAE1;
-    color:white;
-    padding-bottom:10px;
-    padding-top:10px;
-}
-.mapSection{
-    text-align:center;
-    width:32%;
-    display:inline-block;
-    padding:0px !important;
-    margin:0 !important;
-    vertical-align:top;
-}
-.sectionElem{
-    display:block;
-    color:white;
-}
-.sectionElem:hover{
-    cursor: pointer;
-}
-
-@media (max-width:600px){
-    .mapSection{
-        display:block;
-        width:100%;
-    }
-}
-
-.bigFeature{
-    display:none;
-    position:fixed;
-    height:100vh;
-    width:100%;
-    background-color:rgba(0,0,0,.75);
-    color:white;
-    z-index:1002;
-/*    transition:all 0.3s ease 0s;*/
-    text-align: center;
-}
-.bigSchedFeature{
-    display:none;
-    width:100%;
-    background-color:rgba(0,0,0,.75);
-    color:white;
-    z-index:1002;
-/*    transition:all 0.3s ease 0s;*/
-    text-align: center;
-}
-.smallFeature{
-    background-color:#26AAE1;
-    border:3px solid white;
-    height:80%;
-    max-height:400px;
-    max-width:400px;
-    width:100%;
-    margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-    border-radius:10px;
-}
-.showFeature{
-    display:inline-block;
-}
-.featureX{
-    height:25px;
-    width:25px;;
-    float:right;
-}
-.featureX:hover{
-    cursor:pointer;
-}
-.xBTN{
-    font-size:25px;
-}
-.scheduleFeature{
-    height:100% !important;
-    max-height: 2000px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-.schedDiv{
-    margin-top:30px;
-}
-
-.dayCareWrap{
-    margin-top:10px
-}
-.dayCare{
-    display: inline-block;
-    height:75px;
-    width:75px;
-    background-color: white;
-    border:2px solid white;
-    margin-bottom:5px;
-}
-.kidsFeature{
-    height:200px;
-}
-.contactFeature{
-    height:200px;
-}
-.holidayFeature{
-    height:200px;
-}
-
-@media (max-width:338px){
-    .kidsFeature{
-        height:300px;
-    }
-}
-
-#headLine{
-    border-top:.25px solid lightgrey;
-    padding-bottom:5px;
-    width:75%;
-    margin:0 auto;
-    max-width:400px;
-}
-
-.memOffer{
-    text-align:center;
-    background-color:white;
-    border-radius: 10px;
-    border:1px solid #26AAE1;
-    display:inline-block;
-    width:100%;
-    max-width:300px;
-    margin:5px;
-    color:black;
-    -moz-box-shadow: 0 0 15px 0 #26AAE1;
--webkit-box-shadow: 0 0 15px 0 #26AAE1;
-box-shadow: 0 0 15px 0 #26AAE1;
-    height:198px;
-    vertical-align: top;
-}
-
-.memBTN{
-    background-color:#F15A2A;
-    color:white;
-    margin-bottom:10px;
-    border:1px solid #F15A2A;
-    height:30px;
-    line-height:15px;
-    transition:all 0.3s ease 0s;
-    border-radius:15px;
-}
-.memBTN:hover{
-    background-color: white;
-    color:#F15A2A;
-}
-.memP{
-    font-size:8px;
-    text-align:left;
-    padding-left:2px
-}
-#memHead{
-    min-height: 70%;
-    min-height: -webkit-calc(100% - 96px);
-    min-height: -moz-calc(100% - 96px);
-    min-height: calc(100% - 966px);
-}
-
-
-
-@media (min-width:625px){
-    .memMap{
-    position:absolute;
-    width:100%;
-    bottom:0;
-}
-}
-
-.social{
-    transition:all 0.3s ease 0s;
-}
-.social:hover{
-    color:#F15A2A;
-}
-.address:hover{
-    cursor: pointer;
-}
-
-.bigSched{
-    display:none;
-    position:fixed;
-    height:100vh;
-    width:100%;
-    background-color:rgba(0,0,0,.75);
-    color:white;
-    z-index:1002;
-/*    transition:all 0.3s ease 0s;*/
-    text-align: center;
-}
-.rec{
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition:all 0.3s ease 0s;
-}
-.rec:hover{
-    -moz-box-shadow: 0 0 25px 5px #F15A2A;
-    -webkit-box-shadow: 0 0 25px 5px #F15A2A;
-    box-shadow: 0 0 25px 5px #F15A2A;
-}
-.rec:active{
-    -moz-box-shadow: 0 0 25px 5px #F15A2A;
-    -webkit-box-shadow: 0 0 25px 5px #F15A2A;
-    box-shadow: 0 0 25px 5px #F15A2A;
-}
-
-#amenities{
-    background-image: url(img/features/amenities.png);
-}
-#refer{
-    background-image: url(img/features/refer.png);
-}
-#promos{
-    background-image: url(img/features/currentpromo.png);
-}
-#kids{
-    background-image: url(img/features/kidsclub.png);
-}
-#web{
-    background-image: url(img/features/weboffer.png);
-}
-#schedule{
-    background-image: url(img/features/classschedule.png);
-}
-#gallery{
-    background-image: url(img/features/gallery.png);
-}
-
-#map{
-    background-image: url(img/features/MapandDirections.png);
-}
-
-.trialHeader{
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO2.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO2.jpg);
-    background-size: cover;
-    background-position: center;
-    height:100vh;
-    background-attachment:fixed;
-    text-align: center;
-}
-
-
-
+#rotate{background-image:url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/landing/navIcon.svg);background-size:contain;background-repeat:no-repeat;z-index:1001;position:fixed;height:50px;width:45px;right:5px;top:5px;}
+#rotate:hover{cursor:pointer;}
+.divNav{display:none;position:fixed;height:100vh;width:100%;background-color:rgba(255,255,255,.9);color:white;z-index:1000;text-align:center;}
+.showNav{display:inline-block;}
+.divNav a{color:#F15A2A;transition:all 0.3s ease 0s;}
+.navItem{font-size:24px;transition:all 0.3s ease 0s;color:#26AAE1;font-weight:bold;}
+.navItem:hover{cursor:pointer;}
+header{}
+.landingHeader1{background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO15.jpg);background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO15.jpg);background-size:cover;background-position:center;height:100vh;background-attachment:fixed;}
+.landingHeader2{background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO10.jpg);background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO10.jpg);background-size:cover;background-position:center;height:100vh;background-attachment:fixed;}
+.landingHeader3{background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO8.jpg);background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO8.jpg);background-size:cover;background-position:center;height:100vh;background-attachment:fixed;}
+.landBTN{border:1px solid transparent;color:white !important;font-weight:bold;transition:all 0.3s ease 0s;border-radius:10px;}
+.joinBTN{border:2px solid #26AAE1;background-color:#26AAE1;}
+.joinBTN:hover{border:2px solid #26AAE1;background-color:transparent;}
+.passBTN{border:2px solid #F15A2A;background-color:#F15A2A;}
+.passBTN:hover{border:2px solid #F15A2A;background-color:transparent;}
+.phoneBTN{border:2px solid #e13226;background-color:#e13226;text-align:left;}
+.phoneBTN:hover{background-color:transparent;}
+.moreBTN{border:2px solid lightgrey;color:white !important;font-weight:bold;background-color:lightgrey;transition:all 0.3s ease 0s;border-radius:10px;}
+.moreBTN:hover{border:2px solid white;background-color:transparent;}
+.dayTime{width:75px;transition:all 0.3s ease 0s;display:inline-block;}
+@media (max-width:360px){.dayTime{width:40px;}
+}
+@media (min-width:560px){.dayTime{margin-top:50px;}
+}
+.stickyHeader{padding-bottom:5px;background-color:white;top:-1px;position:sticky;width:100%;height:60px;padding-top:5px;}
+#landingInfo{text-align:center;background-color:white;background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/landing/row.jpg);background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/landing/rowpic.jpg);background-size:cover;background-position:right top;background-attachment:fixed;}
+.feature{height:200px;width:300px;display:inline-block;margin-top:10px;color:white;font-weight:bold;text-align:center;border-radius:20px;}
+.feature:hover{cursor:pointer;}
+#siteMap{text-align:center;background-color:#26AAE1;color:white;padding-bottom:10px;padding-top:10px;}
+.mapSection{text-align:center;width:32%;display:inline-block;padding:0px !important;margin:0 !important;vertical-align:top;}
+.sectionElem{display:block;color:white;}
+.sectionElem:hover{cursor:pointer;}
+@media (max-width:600px){.mapSection{display:block;width:100%;}
+}
+.bigFeature{display:none;position:fixed;height:100vh;width:100%;background-color:rgba(0,0,0,.75);color:white;z-index:1002;text-align:center;}
+.bigSchedFeature{display:none;width:100%;background-color:rgba(0,0,0,.75);color:white;z-index:1002;text-align:center;}
+.smallFeature{background-color:#26AAE1;border:3px solid white;height:80%;max-height:400px;max-width:400px;width:100%;margin:auto;position:absolute;top:0;left:0;bottom:0;right:0;border-radius:10px;}
+.showFeature{display:inline-block;}
+.featureX{height:25px;width:25px;;float:right;}
+.featureX:hover{cursor:pointer;}
+.xBTN{font-size:25px;}
+.scheduleFeature{height:100% !important;max-height:2000px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;}
+.schedDiv{margin-top:30px;}
+.dayCareWrap{margin-top:10px}
+.dayCare{display:inline-block;height:75px;width:75px;background-color:white;border:2px solid white;margin-bottom:5px;}
+.kidsFeature{height:200px;}
+.contactFeature{height:200px;}
+.holidayFeature{height:200px;}
+@media (max-width:338px){.kidsFeature{height:300px;}
+}
+#headLine{border-top:.25px solid lightgrey;padding-bottom:5px;width:75%;margin:0 auto;max-width:400px;}
+.memOffer{text-align:center;background-color:white;border-radius:10px;border:1px solid #26AAE1;display:inline-block;width:100%;max-width:300px;margin:5px;color:black;-moz-box-shadow:0 0 15px 0 #26AAE1;-webkit-box-shadow:0 0 15px 0 #26AAE1;box-shadow:0 0 15px 0 #26AAE1;height:198px;vertical-align:top;}
+.memBTN{background-color:#F15A2A;color:white;margin-bottom:10px;border:1px solid #F15A2A;height:30px;line-height:15px;transition:all 0.3s ease 0s;border-radius:15px;}
+.memBTN:hover{background-color:white;color:#F15A2A;}
+.memP{font-size:8px;text-align:left;padding-left:2px}
+#memHead{min-height:70%;min-height:-webkit-calc(100% - 96px);min-height:-moz-calc(100% - 96px);min-height:calc(100% - 966px);}
+@media (min-width:625px){.memMap{position:absolute;width:100%;bottom:0;}
+}
+.social{transition:all 0.3s ease 0s;}
+.social:hover{color:#F15A2A;}
+.address:hover{cursor:pointer;}
+.bigSched{display:none;position:fixed;height:100vh;width:100%;background-color:rgba(0,0,0,.75);color:white;z-index:1002;text-align:center;}
+.rec{background-size:contain;background-position:center;background-repeat:no-repeat;transition:all 0.3s ease 0s;}
+.rec:hover{-moz-box-shadow:0 0 25px 5px #F15A2A;-webkit-box-shadow:0 0 25px 5px #F15A2A;box-shadow:0 0 25px 5px #F15A2A;}
+.rec:active{-moz-box-shadow:0 0 25px 5px #F15A2A;-webkit-box-shadow:0 0 25px 5px #F15A2A;box-shadow:0 0 25px 5px #F15A2A;}
+#amenities{background-image:url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/features/amenities.png);}
+#refer{background-image:url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/features/refer.png);}
+#promos{background-image:url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/features/currentpromo.png);}
+#kids{background-image:url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/features/kidsclub.png);}
+#web{background-image:url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/features/weboffer.png);}
+#schedule{background-image:url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/features/classschedule.png);}
+#gallery{background-image:url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/features/gallery.png);}
+#map{background-image:url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/features/MapandDirections.png);}
+.trialHeader{background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO2.jpg);background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO2.jpg);background-size:cover;background-position:center;height:100vh;background-attachment:fixed;text-align:center;}
