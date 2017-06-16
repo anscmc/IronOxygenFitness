@@ -356,12 +356,24 @@ box-shadow: 0 0 15px 0 #26AAE1;
     min-height: calc(100% - 966px);
 }
 
-@media (min-width:601px){
+
+
+@media (min-width:625px){
     .memMap{
     position:absolute;
     width:100%;
     bottom:0;
 }
+}
+
+.social{
+    transition:all 0.3s ease 0s;
+}
+.social:hover{
+    color:#F15A2A;
+}
+.address:hover{
+    cursor: pointer;
 }
 
 .bigSched{
