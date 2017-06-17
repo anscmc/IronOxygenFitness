@@ -6,9 +6,7 @@
 .navItem{font-size:24px;transition:all 0.3s ease 0s;color:#26AAE1;font-weight:bold;}
 .navItem:hover{cursor:pointer;}
 header{}
-.landingHeader1{background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO15.jpg);background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO15.jpg);background-size:cover;background-position:center;height:100vh;background-attachment:fixed;}
-.landingHeader2{background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO10.jpg);background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO10.jpg);background-size:cover;background-position:center;height:100vh;background-attachment:fixed;}
-.landingHeader3{background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO8.jpg);background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.getforge.com/iof.getforge.io/1497635625/Resources/css/img/gallery/IO8.jpg);background-size:cover;background-position:center;height:100vh;background-attachment:fixed;}
+
 .landBTN{border:1px solid transparent;color:white !important;font-weight:bold;transition:all 0.3s ease 0s;border-radius:10px;}
 .joinBTN{border:2px solid #26AAE1;background-color:#26AAE1;}
 .joinBTN:hover{border:2px solid #26AAE1;background-color:transparent;}
