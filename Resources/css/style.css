@@ -1,29 +1,6 @@
 
-#hidden1::before
-		{content:url("img/gallery/IO10.jpg");
-		 width:0;
-		 height:0;
-		 visibility:hidden;}
-#hidden2::before
-		{content:url("img/gallery/IO15.jpg");
-		 width:0;
-		 height:0;
-		 visibility:hidden;}
-#hidden3::before
-		{content:url("img/gallery/IO8.jpg");
-		 width:0;
-		 height:0;
-		 visibility:hidden;}
 
-#hidden1::after{
-    display:none;
-}
-#hidden2::after{
-    display:none;
-}
-#hidden3::after{
-    display:none;
-}
+
 
 
 #rotate{background-image:url(img/landing/navIcon.svg);background-size:contain;background-repeat:no-repeat;z-index:1001;position:fixed;height:50px;width:45px;right:5px;top:5px;}
