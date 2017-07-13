@@ -10,14 +10,14 @@
 #hidden1{
     position:absolute;
     visibility: hidden;
-    background-image: url(img/gallery/IO10.jpg);
+    background-image: url(img/gallery/IO2.jpg);
     height:0px;
     width:0px;
 }
 #hidden2{
     position:absolute;
     visibility: hidden;
-    background-image: url(img/gallery/IO15.jpg);
+    background-image: url(img/gallery/IO6.jpg);
     height:0px;
     width:0px;
 }
