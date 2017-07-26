@@ -121,3 +121,11 @@ header{}
 #gallery{background-image:url(img/features/gallery.png);}
 #map{background-image:url(img/features/MapandDirections.png);}
 .trialHeader{background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO2.jpg);background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/gallery/IO2.jpg);background-size:cover;background-position:center;height:100vh;background-attachment:fixed;text-align:center;}
+
+div > p{
+    margin:5px;
+}
+
+.bigFeature2{display:none;position:fixed;height:1000px;width:100%;background-color:rgba(0,0,0,.75);color:white;z-index:1002;text-align:center;z-index:1001}
+
+.smallFeature2{background-color:#26AAE1;border:3px solid white;max-width:400px;width:100%;margin:auto;position:absolute;top:-50vh;left:0;bottom:0;right:0;border-radius:10px;overflow:auto;height:80vh;}
