@@ -1,2 +1,4 @@
 redirect 301 /freeclass.html /freeclass.php
 redirect 301 /Pages/freeclass.html /freeclass.php
+redirect 301 /Pages/30daybellyoff.html /Pages/30daybellyoff.php
+redirect 301 /Pages/freetrial.html /Pages/freetrial.php
